@@ -1,0 +1,17 @@
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\bin\Debug\net7.0\PracticeCA.Infrastructure.deps.json
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\bin\Debug\net7.0\PracticeCA.Infrastructure.runtimeconfig.json
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\bin\Debug\net7.0\PracticeCA.Infrastructure.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\bin\Debug\net7.0\PracticeCA.Infrastructure.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\bin\Debug\net7.0\PracticeCA.Domain.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\bin\Debug\net7.0\PracticeCA.Domain.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.csproj.AssemblyReference.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.AssemblyInfoInputs.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.AssemblyInfo.cs
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.csproj.CopyComplete
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\refint\PracticeCA.Infrastructure.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.genruntimeconfig.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\ref\PracticeCA.Infrastructure.dll

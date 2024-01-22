@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DN06sKkvuB5UwhSy2UyCWZFTojNRS4dOHSV4z3qEJi4=",
+  "Source": "PracticeCA.Api",
+  "BasePath": "_content/PracticeCA.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\bin\Debug\net7.0\PracticeCA.Domain.deps.json
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\bin\Debug\net7.0\PracticeCA.Domain.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\bin\Debug\net7.0\PracticeCA.Domain.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.csproj.AssemblyReference.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.AssemblyInfoInputs.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.AssemblyInfo.cs
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.csproj.CoreCompileInputs.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\refint\PracticeCA.Domain.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\ref\PracticeCA.Domain.dll

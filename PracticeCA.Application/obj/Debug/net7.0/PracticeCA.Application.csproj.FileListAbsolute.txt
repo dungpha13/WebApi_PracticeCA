@@ -1,0 +1,15 @@
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\bin\Debug\net7.0\PracticeCA.Application.deps.json
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\bin\Debug\net7.0\PracticeCA.Application.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\bin\Debug\net7.0\PracticeCA.Application.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\bin\Debug\net7.0\PracticeCA.Domain.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\bin\Debug\net7.0\PracticeCA.Domain.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.csproj.AssemblyReference.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.AssemblyInfoInputs.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.AssemblyInfo.cs
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.csproj.CoreCompileInputs.cache
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.csproj.CopyComplete
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\refint\PracticeCA.Application.dll
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.pdb
+D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\ref\PracticeCA.Application.dll
