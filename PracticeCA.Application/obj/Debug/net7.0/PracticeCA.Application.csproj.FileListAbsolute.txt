@@ -13,3 +13,4 @@ D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.App
 D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\refint\PracticeCA.Application.dll
 D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.pdb
 D:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\ref\PracticeCA.Application.dll
+d:\Code\DotNet\PracticeCA\PracticeCA.Application\obj\Debug\net7.0\PracticeCA.Application.sourcelink.json

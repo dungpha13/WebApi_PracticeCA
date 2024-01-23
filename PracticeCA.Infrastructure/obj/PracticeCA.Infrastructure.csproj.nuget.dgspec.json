@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj": {}
+    "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj": {}
   },
   "projects": {
     "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
@@ -79,14 +79,14 @@
         }
       }
     },
-    "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj": {
+    "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj",
         "projectName": "PracticeCA.Infrastructure",
-        "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj",
+        "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dungp\\.nuget\\packages\\",
-        "outputPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\obj\\",
+        "outputPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dungp\\AppData\\Roaming\\NuGet\\NuGet.Config",

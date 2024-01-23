@@ -92,3 +92,6 @@ d:\Code\DotNet\PracticeCA\PracticeCA.Api\bin\Debug\net7.0\FluentValidation.dll
 d:\Code\DotNet\PracticeCA\PracticeCA.Api\bin\Debug\net7.0\MediatR.dll
 d:\Code\DotNet\PracticeCA\PracticeCA.Api\bin\Debug\net7.0\MediatR.Contracts.dll
 d:\Code\DotNet\PracticeCA\PracticeCA.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+d:\Code\DotNet\PracticeCA\PracticeCA.Api\obj\Debug\net7.0\PracticeCA.Api.sourcelink.json
+d:\Code\DotNet\PracticeCA\PracticeCA.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+d:\Code\DotNet\PracticeCA\PracticeCA.Api\bin\Debug\net7.0\IdentityModel.dll

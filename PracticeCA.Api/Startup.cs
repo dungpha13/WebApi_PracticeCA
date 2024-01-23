@@ -1,5 +1,6 @@
 ﻿using PracticeCA.Infrastructure;
 using PracticeCA.Application;
+using PracticeCA.Api.Configuration;
 
 namespace PracticeCA.Api;
 
@@ -20,7 +21,7 @@ public class Startup
                 opt.Filters.Add<ExceptionFilter>();
             });
         services.AddApplication(Configuration);
-        // services.ConfigureApplicationSecurity(Configuration);
+        services.ConfigureApplicationSecurity(Configuration);
         // services.ConfigureHealthChecks(Configuration);
         // services.ConfigureProblemDetails();
         // services.ConfigureApiVersioning();

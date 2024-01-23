@@ -1,7 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using PracticeCA.Application;
 using PracticeCA.Domain;
+using PracticeCA.Domain.Common.Exceptions;
 
 namespace PracticeCA.Api;
 
@@ -20,16 +22,32 @@ public class ExceptionFilter : Microsoft.AspNetCore.Mvc.Filters.IExceptionFilter
             //     .AddContextInformation(context);
             //     context.ExceptionHandled = true;
             //     break;
-            // case ForbiddenAccessException:
-            //     context.Result = new ForbidResult();
-            //     context.ExceptionHandled = true;
-            //     break;
+            case ForbiddenAccessException:
+                context.Result = new ForbidResult();
+                context.ExceptionHandled = true;
+                break;
             case UnauthorizedAccessException:
                 context.Result = new ForbidResult();
                 context.ExceptionHandled = true;
                 break;
             case NotFoundException exception:
                 context.Result = new NotFoundObjectResult(new ProblemDetails
+                {
+                    Detail = exception.Message
+                })
+                .AddContextInformation(context);
+                context.ExceptionHandled = true;
+                break;
+            case DuplicateException exception:
+                context.Result = new BadRequestObjectResult(new ProblemDetails
+                {
+                    Detail = exception.Message
+                })
+                .AddContextInformation(context);
+                context.ExceptionHandled = true;
+                break;
+            case Exception exception:
+                context.Result = new BadRequestObjectResult(new ProblemDetails
                 {
                     Detail = exception.Message
                 })

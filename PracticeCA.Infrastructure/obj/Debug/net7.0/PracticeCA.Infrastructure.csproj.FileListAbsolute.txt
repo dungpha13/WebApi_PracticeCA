@@ -15,3 +15,4 @@ D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\refint\Prac
 D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.pdb
 D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.genruntimeconfig.cache
 D:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\ref\PracticeCA.Infrastructure.dll
+d:\Code\DotNet\PracticeCA\PracticeCA.Infrastructure\obj\Debug\net7.0\PracticeCA.Infrastructure.sourcelink.json

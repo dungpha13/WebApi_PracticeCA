@@ -10,3 +10,4 @@ D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.d
 D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\refint\PracticeCA.Domain.dll
 D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.pdb
 D:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\ref\PracticeCA.Domain.dll
+d:\Code\DotNet\PracticeCA\PracticeCA.Domain\obj\Debug\net7.0\PracticeCA.Domain.sourcelink.json
