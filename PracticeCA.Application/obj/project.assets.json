@@ -2114,11 +2114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj",
+      "projectUniqueName": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj",
       "projectName": "PracticeCA.Application",
-      "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj",
+      "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj",
       "packagesPath": "C:\\Users\\dungp\\.nuget\\packages\\",
-      "outputPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\obj\\",
+      "outputPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dungp\\AppData\\Roaming\\NuGet\\NuGet.Config",

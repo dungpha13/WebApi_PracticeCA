@@ -19,6 +19,8 @@ public class AuthorizationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRe
     {
         var authorizeAttributes = request.GetType().GetCustomAttributes<AuthorizeAttribute>();
 
+        var result = authorizeAttributes.Any();
+
         if (authorizeAttributes.Any())
         {
             // Must be authenticated user
