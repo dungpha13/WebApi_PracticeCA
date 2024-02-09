@@ -1,6 +1,8 @@
 ﻿using PracticeCA.Infrastructure;
 using PracticeCA.Application;
 using PracticeCA.Api.Configuration;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace PracticeCA.Api;
 
@@ -26,7 +28,31 @@ public class Startup
         // services.ConfigureProblemDetails();
         // services.ConfigureApiVersioning();
         services.AddInfrastructure(Configuration);
-        services.AddSwaggerGen();
+        services.AddSwaggerGen(c =>
+                {
+                    var securityScheme = new OpenApiSecurityScheme()
+                    {
+                        Name = "Authorization",
+                        Description = "Enter a Bearer Token into the `Value` field to have it automatically prefixed with `Bearer ` and used as an `Authorization` header value for requests.",
+                        In = ParameterLocation.Header,
+                        Type = SecuritySchemeType.Http,
+                        Scheme = "bearer",
+                        BearerFormat = "JWT",
+                        Reference = new OpenApiReference
+                        {
+                            Id = JwtBearerDefaults.AuthenticationScheme,
+                            Type = ReferenceType.SecurityScheme
+                        }
+                    };
+
+                    c.AddSecurityDefinition("Bearer", securityScheme);
+
+                    c.AddSecurityRequirement(
+                        new OpenApiSecurityRequirement
+                        {
+                            { securityScheme, Array.Empty<string>() }
+                        });
+                });
         // services.ConfigureSwagger(Configuration);
         services.AddDataProtection();
     }

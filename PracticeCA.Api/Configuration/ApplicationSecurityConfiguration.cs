@@ -1,4 +1,5 @@
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -58,7 +59,7 @@ public static class ApplicationSecurityConfiguration
     private static void ConfigureAuthorization(AuthorizationOptions options)
     {
         //Configure policies and other authorization options here. For example:
-        //options.AddPolicy("EmployeeOnly", policy => policy.RequireClaim("role", "employee"));
+        options.AddPolicy("EmployeeOnly", policy => policy.RequireClaim(ClaimTypes.Role, "Employee"));
         //options.AddPolicy("AdminOnly", policy => policy.RequireClaim("role", "admin"));
     }
 }

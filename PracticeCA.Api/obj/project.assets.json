@@ -1761,6 +1761,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "FluentValidation": "11.9.0",
           "MediatR": "12.2.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.15",
           "Microsoft.EntityFrameworkCore": "7.0.15",
@@ -4613,11 +4614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
+      "projectUniqueName": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
       "projectName": "PracticeCA.Api",
-      "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
+      "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
       "packagesPath": "C:\\Users\\dungp\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\obj\\",
+      "outputPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dungp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4637,8 +4638,8 @@
             "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj": {
               "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj"
             },
-            "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
-              "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj"
+            "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
+              "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj"
             },
             "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj": {
               "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj"

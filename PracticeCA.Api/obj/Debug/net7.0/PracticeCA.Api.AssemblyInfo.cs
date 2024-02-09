@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeCA.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+086e7d9930c8aba22192894c6beaa6403be44fc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeCA.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeCA.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

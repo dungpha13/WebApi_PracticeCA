@@ -2,7 +2,7 @@
 
 namespace PracticeCA.Application;
 
-[Authorize]
+[Authorize(Policy = "EmployeeOnly")]
 public class GetWeatherForecastQuery : IRequest<List<string>>, IQuery
 {
 }

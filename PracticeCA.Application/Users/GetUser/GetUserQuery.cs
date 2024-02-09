@@ -2,7 +2,7 @@
 
 namespace PracticeCA.Application;
 
-public class GetUserQuery : IRequest<UserDto>, IQuery
+public class GetUserQuery : IRequest<string>, IQuery
 {
     public GetUserQuery(string userName, string password)
     {
