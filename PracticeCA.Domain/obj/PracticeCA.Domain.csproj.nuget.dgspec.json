@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {}
+    "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {}
   },
   "projects": {
-    "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
+    "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj",
+        "projectUniqueName": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj",
         "projectName": "PracticeCA.Domain",
-        "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj",
+        "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj",
         "packagesPath": "C:\\Users\\dungp\\.nuget\\packages\\",
-        "outputPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\obj\\",
+        "outputPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dungp\\AppData\\Roaming\\NuGet\\NuGet.Config",

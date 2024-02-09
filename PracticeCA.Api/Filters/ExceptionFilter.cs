@@ -27,10 +27,11 @@ public class ExceptionFilter : Microsoft.AspNetCore.Mvc.Filters.IExceptionFilter
                 context.ExceptionHandled = true;
                 break;
             case UnauthorizedAccessException exception:
-                context.Result = new NotFoundObjectResult(new ProblemDetails
+                context.Result = new UnauthorizedObjectResult(new ProblemDetails
                 {
                     Detail = exception.Message
-                });
+                })
+                .AddContextInformation(context);
                 context.ExceptionHandled = true;
                 break;
             case NotFoundException exception:

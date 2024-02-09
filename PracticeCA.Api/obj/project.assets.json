@@ -4613,11 +4613,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
+      "projectUniqueName": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
       "projectName": "PracticeCA.Api",
-      "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
+      "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\PracticeCA.Api.csproj",
       "packagesPath": "C:\\Users\\dungp\\.nuget\\packages\\",
-      "outputPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\obj\\",
+      "outputPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dungp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4634,11 +4634,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj": {
-              "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj"
+            "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj": {
+              "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj"
             },
-            "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
-              "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj"
+            "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
+              "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj"
             },
             "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj": {
               "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Infrastructure\\PracticeCA.Infrastructure.csproj"

@@ -2135,8 +2135,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
-              "projectPath": "d:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj"
+            "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj": {
+              "projectPath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Domain\\PracticeCA.Domain.csproj"
             }
           }
         }
