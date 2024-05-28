@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GnCp5KRScU1S4vWvqFegs5CaYwMkFbh1AlkoOfRURCANOH+TD7HJZ8dtDi+RTjs/o/rVh5oQUaSMs8mUzHMxgA==",
+  "dgSpecHash": "E/CcBlWVnv3ujCXa4B8ETR7b4RliZDHiJQNuH3Jn31D4EmwS+Yx8UsN91KukgaFbbGqnNrZRAs9Z4bQizhIjkg==",
   "success": true,
   "projectFilePath": "D:\\Code\\DotNet\\PracticeCA\\PracticeCA.Application\\PracticeCA.Application.csproj",
   "expectedPackageFiles": [
@@ -64,9 +64,9 @@
     "C:\\Users\\dungp\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
     "C:\\Users\\dungp\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
     "C:\\Users\\dungp\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
-    "C:\\Users\\dungp\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\dungp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\dungp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+    "C:\\Users\\dungp\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\dungp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\dungp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }

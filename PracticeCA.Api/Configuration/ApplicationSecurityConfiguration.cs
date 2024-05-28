@@ -3,6 +3,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using PracticeCA.Application;
 using PracticeCA.Domain;
 using PracticeCA.Infrastructure;
@@ -15,8 +16,9 @@ public static class ApplicationSecurityConfiguration
         this IServiceCollection services,
         IConfiguration configuration)
     {
+        // JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
+
         services.AddTransient<ICurrentUserService, CurrentUserService>();
-        JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
         services.AddHttpContextAccessor();
 
         services.AddIdentity<User, Role>(options =>
@@ -35,20 +37,48 @@ public static class ApplicationSecurityConfiguration
             // User settings
             options.User.RequireUniqueEmail = false;
         })
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
+        .AddEntityFrameworkStores<ApplicationDbContext>()
+        .AddDefaultTokenProviders();
 
-        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(
-                JwtBearerDefaults.AuthenticationScheme,
-                options =>
+        services.AddCors(options =>
+        {
+            options.AddPolicy("AllOrigins",
+            builder =>
+            {
+                builder.AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowAnyOrigin();
+            });
+        });
+
+        services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+        .AddJwtBearer(
+            cfg =>
+            {
+                cfg.Authority = configuration.GetSection("Security.Bearer:Authority").Get<string>();
+                cfg.Audience = configuration.GetSection("Security.Bearer:Audience").Get<string>();
+
+                cfg.TokenValidationParameters.RoleClaimType = "role";
+                cfg.Configuration = new OpenIdConnectConfiguration();
+                cfg.SaveToken = true;
+                cfg.Events = new JwtBearerEvents
                 {
-                    options.Authority = configuration.GetSection("Security.Bearer:Authority").Get<string>();
-                    options.Audience = configuration.GetSection("Security.Bearer:Audience").Get<string>();
+                    OnTokenValidated = context =>
+                    {
+                        if (context.SecurityToken is JwtSecurityToken accessToken && context.Principal.Identity is ClaimsIdentity identity)
+                        {
+                            identity.AddClaim(new Claim("access_token", accessToken.RawData));
+                        }
 
-                    options.TokenValidationParameters.RoleClaimType = "role";
-                    options.SaveToken = true;
-                });
+                        return Task.CompletedTask;
+                    }
+                };
+            })
+        .AddCookie();
 
         services.AddAuthorization(ConfigureAuthorization);
 
@@ -59,7 +89,7 @@ public static class ApplicationSecurityConfiguration
     private static void ConfigureAuthorization(AuthorizationOptions options)
     {
         //Configure policies and other authorization options here. For example:
-        options.AddPolicy("EmployeeOnly", policy => policy.RequireClaim(ClaimTypes.Role, "Employee"));
+        options.AddPolicy("EmployeeOnly", policy => policy.RequireClaim("role", "Employee"));
         //options.AddPolicy("AdminOnly", policy => policy.RequireClaim("role", "admin"));
     }
 }

@@ -21,4 +21,8 @@
     <ProjectReference Include="..\PracticeCA.Domain\PracticeCA.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Auth\" />
+  </ItemGroup>
+
 </Project>

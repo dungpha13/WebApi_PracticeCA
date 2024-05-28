@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeCA.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+086e7d9930c8aba22192894c6beaa6403be44fc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23057561a71ce9fa98016c217efbe35246297cd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeCA.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeCA.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

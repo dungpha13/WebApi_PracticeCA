@@ -23,38 +23,13 @@ public class Startup
                 opt.Filters.Add<ExceptionFilter>();
             });
         services.AddApplication(Configuration);
+        services.AddInfrastructure(Configuration);
+        services.AddDataProtection();
         services.ConfigureApplicationSecurity(Configuration);
+        services.ConfigureSwagger(Configuration);
         // services.ConfigureHealthChecks(Configuration);
         // services.ConfigureProblemDetails();
         // services.ConfigureApiVersioning();
-        services.AddInfrastructure(Configuration);
-        services.AddSwaggerGen(c =>
-                {
-                    var securityScheme = new OpenApiSecurityScheme()
-                    {
-                        Name = "Authorization",
-                        Description = "Enter a Bearer Token into the `Value` field to have it automatically prefixed with `Bearer ` and used as an `Authorization` header value for requests.",
-                        In = ParameterLocation.Header,
-                        Type = SecuritySchemeType.Http,
-                        Scheme = "bearer",
-                        BearerFormat = "JWT",
-                        Reference = new OpenApiReference
-                        {
-                            Id = JwtBearerDefaults.AuthenticationScheme,
-                            Type = ReferenceType.SecurityScheme
-                        }
-                    };
-
-                    c.AddSecurityDefinition("Bearer", securityScheme);
-
-                    c.AddSecurityRequirement(
-                        new OpenApiSecurityRequirement
-                        {
-                            { securityScheme, Array.Empty<string>() }
-                        });
-                });
-        // services.ConfigureSwagger(Configuration);
-        services.AddDataProtection();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,6 +42,7 @@ public class Startup
         }
         // app.UseSerilogRequestLogging();
         // app.UseExceptionHandler();
+        app.UseCors();
         app.UseHttpsRedirection();
         app.UseRouting();
         app.UseAuthentication();
